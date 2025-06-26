@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror -std=c99 -g
+CFLAGS = -Wall -Wextra -Werror -std=c99 -g -Iinclude
 LDFLAGS = -lncurses
 
 # Makefile colors
